@@ -1,2 +1,2 @@
 # IRCC-CRS-points-perdiction
-I am starting build a program that can analize and perdict the invitation score for IRCC
+I am starting to build a program that can analyze and predict the invitation score for IRCC in the future year.
