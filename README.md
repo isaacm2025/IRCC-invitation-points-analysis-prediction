@@ -14,7 +14,7 @@ An **interactive dashboard** that visualizes Canada Express Entry Invitation tre
 - Displays **invitations issued** for each draw when hovering.
 - Filter by **invitation category** (CEC, PNP, FSW, etc.).
 - Fully interactive zooming, panning, and tooltips.
-- Ready to be deployed online (e.g., Render, Streamlit, Heroku).
+- To be deployed at Render
 
 ---
 
@@ -33,8 +33,8 @@ source venv/bin/activate   # On Mac/Linux
 
 3. Install dependencies: pip install -r requirements.txt
 
-
-Usage
+---
+## Usage
 
 1. Make sure ircc_analyzer_data.csv is in the data/ folder.
 
@@ -45,6 +45,7 @@ Usage
 http://127.0.0.1:8050/
 Select a category to view CRS trends. Hover over points to see detailed information.
 
+---
 
 ##Technologies:
 
@@ -56,8 +57,9 @@ Dash
 
 Plotly
 
+---
 
-##Project Structure:
+## program structure
 IRCC_Project/
 │
 ├─ dashboard.py
