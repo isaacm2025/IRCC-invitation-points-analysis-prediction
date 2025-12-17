@@ -13,36 +13,18 @@ An **interactive dashboard** that visualizes Canada Express Entry Invitation tre
 - Displays **invitations issued** for each draw when hovering.
 - Filter by **invitation category** (CEC, PNP, FSW, etc.).
 - Fully interactive zooming, panning, and tooltips.
-- To be deployed at Render
 
 ---
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-
-
-2. Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-# Windows: venv\Scripts\activate
-
-3. Install dependencies: pip install -r requirements.txt
+## How to Run Locally
 ```
-
-## Usage
-
-1. Make sure ircc_analyzer_data.csv is in the data/ folder.
-
-2. Run the dashboard: python dashboard.py
-
-3. Open the browser at: http://127.0.0.1:8050/
-Select a category to view CRS trends. Hover over points to see detailed information.
-
+1. Clone the repository
+2. Create a virtual environment
+3. Install dependencies
+4. Run `python dashboard.py`
+5. Open http://127.0.0.1:8050
+6.Select a category to view CRS trends. Hover over points to see detailed information.
+```
 
 ## Technologies:
 
@@ -69,4 +51,8 @@ IRCC_Project/
     ├─ analyzer.py
     └─ visualizer.py
 ```
-
+## Data Source
+Official IRCC Express Entry rounds:
+```
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html
+```
